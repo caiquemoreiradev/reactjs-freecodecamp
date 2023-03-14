@@ -1,0 +1,112 @@
+* {
+
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+}
+
+
+main {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.business__card {
+
+  background-color: #1A1B21;
+  color: #fff;
+
+  border-radius: 8px;
+}
+
+.business__card img {
+
+  width: 300px;
+
+  margin-bottom: 1rem;
+}
+
+.business__card .people__info {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 2rem;
+}
+
+.business__card .people__info strong {
+
+  font-size: 25px;
+}
+
+.business__card .people__info span.position {
+
+  color: #F3BF99;
+  margin: 0.5rem 0;
+
+  font-size: 12.8px;
+}
+
+.business__card .people__info span {
+
+  font-size: 12px;
+}
+
+.business__card .actions {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.business__card .actions button {
+
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+
+  color: #374151;
+  font-weight: bold;
+}
+
+.business__card .actions button.linkedin {
+
+  background-color: #5093E2;
+  color: #fff;
+}
+
+.business__card .about {
+
+  padding: 1rem 2rem;
+
+  max-width: 300px;
+}
+
+.business__card .about p {
+
+  font-size: 14px;
+
+  margin-top: 0.5rem;
+}
+
+.business__card .footer {
+
+  padding: 1rem 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #141414;
+}
