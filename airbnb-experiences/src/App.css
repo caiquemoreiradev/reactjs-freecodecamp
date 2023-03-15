@@ -1,0 +1,88 @@
+* {
+
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box
+}
+
+body {
+
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+
+  padding: 2rem;
+
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+section.hero {
+
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+
+  padding: 4rem 2rem;
+}
+
+section.hero img {
+
+  margin: 0 auto;
+}
+
+section.hero div.hero__info {
+
+  margin: 4rem 2rem 1rem;
+}
+
+section.hero div.hero__info h1 {
+
+  font-size: 36px;
+  margin-bottom: 0.5rem;
+}
+
+section.main {
+
+  overflow-x: scroll;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  padding: 0 4rem;
+}
+
+section.main div.card {
+
+  padding: 1rem 1rem 2rem;
+}
+
+section.main div.card img.experience_image {
+
+  width: 300px;
+  height: 400px;
+  margin-bottom: 1rem;
+
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+section.main div.card p {
+
+  margin: 1rem 0;
+}
+
+section.main div.card p.avaliation {
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 0.8rem;
+}
+
+section.main div.card p.avaliation img {
+
+  margin-right: 0.5rem;
+}
